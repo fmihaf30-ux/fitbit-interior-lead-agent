@@ -1,0 +1,72 @@
+[
+  {
+    "agentName": "Agent Cathy (Real Estate Database)",
+    "suburb": "Ntinda, Greater Kampala",
+    "listingTrigger": "Fully furnished one bedroom house for rent in ntinda (UGX 100,000)",
+    "phone": "+256709688141",
+    "altPhone": "+256709688141",
+    "email": "",
+    "portal": "https://www.realestatedatabase.net",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Agent Ivan (Real Estate Database)",
+    "suburb": "Ntinda, Greater Kampala",
+    "listingTrigger": "fully furnished double roomed apartments for short and long time stay ntinda (UGX 130,000)",
+    "phone": "+256758589258",
+    "altPhone": "+256758589258",
+    "email": "",
+    "portal": "https://www.realestatedatabase.net",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Agent Praise (Real Estate Database)",
+    "suburb": "Ntinda, Greater Kampala",
+    "listingTrigger": "SPACIOUS  FURNISHED DOUBLE ROOMED APARTMENT FOR RENT IN NTINDA (UGX 150,000)",
+    "phone": "+256751127725",
+    "altPhone": "+256751127725",
+    "email": "",
+    "portal": "https://www.realestatedatabase.net",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Agent Sheila (Real Estate Database)",
+    "suburb": "Ntinda, Greater Kampala",
+    "listingTrigger": "A FULLY FURNISHED 1 BEDROOM APARTMENT FOR RENT IN ntinda (UGX 150,000)",
+    "phone": "+256703526489",
+    "altPhone": "+256703526489",
+    "email": "",
+    "portal": "https://www.realestatedatabase.net",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Agent Hubert (Real Estate Database)",
+    "suburb": "Ntinda, Greater Kampala",
+    "listingTrigger": "Fully furnished 2bedroom apartment for rent in ntinda (UGX 200,000)",
+    "phone": "+256702805935",
+    "altPhone": "+256702805935",
+    "email": "",
+    "portal": "https://www.realestatedatabase.net",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Agent George (Real Estate Database)",
+    "suburb": "Ntinda, Greater Kampala",
+    "listingTrigger": "Double selfcontained house for rent (UGX 500,000)",
+    "phone": "+256758679150",
+    "altPhone": "+256758679150",
+    "email": "",
+    "portal": "https://www.realestatedatabase.net",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Agent Bonny (Real Estate Database)",
+    "suburb": "Ntinda, Greater Kampala",
+    "listingTrigger": "brand new 1 bedroom 1 bathroom house  for rent in ntinda (UGX 500,000)",
+    "phone": "+256787770445",
+    "altPhone": "+256787770445",
+    "email": "",
+    "portal": "https://www.realestatedatabase.net",
+    "status": "Ready to Message on WhatsApp"
+  }
+]

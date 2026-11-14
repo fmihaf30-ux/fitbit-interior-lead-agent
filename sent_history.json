@@ -1,0 +1,650 @@
+{
+  "info@ninainteriors.co.ug": {
+    "email": "info@ninainteriors.co.ug",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:17:14.592Z",
+    "lastContactedAt": "2026-11-11T17:42:13.488Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "admin@optimuminteriordesigns.com": {
+    "email": "admin@optimuminteriordesigns.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:17:42.362Z",
+    "lastContactedAt": "2026-11-11T17:42:19.246Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "affinityimpressionsltd2016@gmail.com": {
+    "email": "affinityimpressionsltd2016@gmail.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:17:49.565Z",
+    "lastContactedAt": "2026-11-11T17:42:41.246Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "gypsuminteriors5@gmail.com": {
+    "email": "gypsuminteriors5@gmail.com",
+    "status": "Follow-Up #1 Sent (2026-11-13)",
+    "sentAt": "2026-11-03T16:18:17.453Z",
+    "lastContactedAt": "2026-11-13T19:45:19.379Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "info@sasaarchitects.co.ug": {
+    "email": "info@sasaarchitects.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:18:44.641Z",
+    "lastContactedAt": "2026-11-11T17:43:09.598Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "admin@dreamarchitectsug.com": {
+    "email": "admin@dreamarchitectsug.com",
+    "status": "Replied - Hot Lead (2026-11-13)",
+    "sentAt": "2026-11-03T16:18:50.577Z",
+    "lastContactedAt": "2026-11-11T17:43:17.289Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "the17onthehill@gmail.com": {
+    "email": "the17onthehill@gmail.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:37:37.082Z",
+    "lastContactedAt": "2026-11-11T17:43:28.926Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "sales.executive@mestilhotels.com": {
+    "email": "sales.executive@mestilhotels.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:37:37.098Z",
+    "lastContactedAt": "2026-11-11T17:43:34.823Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "reservations@zaragardenhotel.com": {
+    "email": "reservations@zaragardenhotel.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:37:37.098Z",
+    "lastContactedAt": "2026-11-11T17:43:40.574Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "info@buzigahotel.com": {
+    "email": "info@buzigahotel.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:37:37.098Z",
+    "lastContactedAt": "2026-11-11T17:43:46.227Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@pearlboutiquehotels.com": {
+    "email": "info@pearlboutiquehotels.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:37:37.098Z",
+    "lastContactedAt": "2026-11-11T17:43:52.310Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "info@ug.knightfrank.com": {
+    "email": "info@ug.knightfrank.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:37:37.098Z",
+    "lastContactedAt": "2026-11-11T17:44:46.797Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "enquiry@fakhruddinproperties.com": {
+    "email": "enquiry@fakhruddinproperties.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:37:37.098Z",
+    "lastContactedAt": "2026-11-11T17:44:52.331Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "sales@comeagaininvestments.com": {
+    "email": "sales@comeagaininvestments.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:37:37.098Z",
+    "lastContactedAt": "2026-11-11T17:45:26.596Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "doreen@adengoarchitecture.com": {
+    "email": "doreen@adengoarchitecture.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:48:17.146Z",
+    "lastContactedAt": "2026-11-11T17:43:23.207Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "salesmgr@phkmarriottskyz.com": {
+    "email": "salesmgr@phkmarriottskyz.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:48:43.813Z",
+    "lastContactedAt": "2026-11-11T17:43:58.037Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "reservations@goldentulipcanaankampala.com": {
+    "email": "reservations@goldentulipcanaankampala.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:49:10.366Z",
+    "lastContactedAt": "2026-11-11T17:44:03.691Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "info@aquariuskigoresort.com": {
+    "email": "info@aquariuskigoresort.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:49:36.802Z",
+    "lastContactedAt": "2026-11-11T17:44:09.365Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "topstays1@gmail.com": {
+    "email": "topstays1@gmail.com",
+    "status": "Replied - Hot Lead (Requested Products & Prices)",
+    "sentAt": "2026-11-03T16:50:03.273Z",
+    "lastContactedAt": "2026-11-03T16:50:03.273Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@entebbetravellershotel.com": {
+    "email": "info@entebbetravellershotel.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:50:30.055Z",
+    "lastContactedAt": "2026-11-11T17:44:22.342Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "reservations@thesanctum.co.ug": {
+    "email": "reservations@thesanctum.co.ug",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:50:36.187Z",
+    "lastContactedAt": "2026-11-11T17:44:28.119Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "hotel@paradiseonthenile.com": {
+    "email": "hotel@paradiseonthenile.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:51:03.142Z",
+    "lastContactedAt": "2026-11-11T17:44:33.807Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "info@nilehoteljinja.com": {
+    "email": "info@nilehoteljinja.com",
+    "status": "Follow-Up #1 Sent (2026-11-11)",
+    "sentAt": "2026-11-03T16:51:09.216Z",
+    "lastContactedAt": "2026-11-11T17:44:39.869Z",
+    "followUpCount": 1,
+    "bounced": false
+  },
+  "sales@buildnet.co.ug": {
+    "email": "sales@buildnet.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:51:36.773Z",
+    "lastContactedAt": "2026-11-11T17:44:58.209Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "edificepropertiesltd@gmail.com": {
+    "email": "edificepropertiesltd@gmail.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:51:42.683Z",
+    "lastContactedAt": "2026-11-11T17:45:03.817Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@ecolandproperty.com": {
+    "email": "info@ecolandproperty.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:51:48.151Z",
+    "lastContactedAt": "2026-11-11T17:45:09.380Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@novera.co.ug": {
+    "email": "info@novera.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:52:15.183Z",
+    "lastContactedAt": "2026-11-11T17:45:15.237Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@rupareliagroup.com": {
+    "email": "info@rupareliagroup.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:52:41.736Z",
+    "lastContactedAt": "2026-11-11T17:45:20.953Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@spekeresort.com": {
+    "email": "info@spekeresort.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:52:47.158Z",
+    "lastContactedAt": "2026-11-11T17:45:32.380Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@cassialodge.com": {
+    "email": "info@cassialodge.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:53:14.185Z",
+    "lastContactedAt": "2026-11-11T17:45:38.039Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@destinyhotel.co.ug": {
+    "email": "info@destinyhotel.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:53:19.663Z",
+    "lastContactedAt": "2026-11-11T17:45:44.198Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@lakeviewresorthotel.com": {
+    "email": "info@lakeviewresorthotel.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:53:25.871Z",
+    "lastContactedAt": "2026-11-11T17:45:50.232Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "reservations@hoteltrianglembarara.com": {
+    "email": "reservations@hoteltrianglembarara.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:53:31.317Z",
+    "lastContactedAt": "2026-11-11T17:45:55.958Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "sales@acaciahotels.com": {
+    "email": "sales@acaciahotels.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:53:57.823Z",
+    "lastContactedAt": "2026-11-11T17:46:01.621Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@nyaikahotel.com": {
+    "email": "info@nyaikahotel.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:54:24.322Z",
+    "lastContactedAt": "2026-11-11T17:46:07.294Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "reservations@fortmotel.com": {
+    "email": "reservations@fortmotel.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:54:29.742Z",
+    "lastContactedAt": "2026-11-11T17:46:14.830Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@jadehotelug.com": {
+    "email": "info@jadehotelug.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:54:56.213Z",
+    "lastContactedAt": "2026-11-11T17:46:26.213Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "roko@roko.com": {
+    "email": "roko@roko.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:55:22.770Z",
+    "lastContactedAt": "2026-11-11T17:46:36.200Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@coronationdevelopers.co.ug": {
+    "email": "info@coronationdevelopers.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-03T16:55:28.270Z",
+    "lastContactedAt": "2026-11-11T17:46:53.734Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@smsconstruction.com": {
+    "email": "info@smsconstruction.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:22:35.996Z",
+    "lastContactedAt": "2026-11-11T17:47:00.158Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@villarealestateuganda.com": {
+    "email": "info@villarealestateuganda.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:23:03.261Z",
+    "lastContactedAt": "2026-11-11T17:47:06.260Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@saamiapropertyagency.com": {
+    "email": "info@saamiapropertyagency.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:23:09.151Z",
+    "lastContactedAt": "2026-11-11T17:47:11.830Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@pbarch.org": {
+    "email": "info@pbarch.org",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:23:35.906Z",
+    "lastContactedAt": "2026-11-11T17:47:17.431Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@kampalahospital.com": {
+    "email": "info@kampalahospital.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:23:41.441Z",
+    "lastContactedAt": "2026-11-11T17:47:24.741Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@nhl.co.ug": {
+    "email": "info@nhl.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:24:08.193Z",
+    "lastContactedAt": "2026-11-11T17:47:30.456Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@ntindahospital.co.ug": {
+    "email": "info@ntindahospital.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:24:35.187Z",
+    "lastContactedAt": "2026-11-11T17:47:36.047Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "his@heritage.co.ug": {
+    "email": "his@heritage.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:24:41.139Z",
+    "lastContactedAt": "2026-11-11T17:47:42.093Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@kabojjainternational.com": {
+    "email": "info@kabojjainternational.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:24:46.739Z",
+    "lastContactedAt": "2026-11-04T09:24:46.739Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@gis.ac.ug": {
+    "email": "info@gis.ac.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:24:52.410Z",
+    "lastContactedAt": "2026-11-11T17:47:47.694Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "admissions@ambrosolischool.com": {
+    "email": "admissions@ambrosolischool.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:25:19.310Z",
+    "lastContactedAt": "2026-11-11T17:47:53.393Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "graceandtruthestates@gmail.com": {
+    "email": "graceandtruthestates@gmail.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:25:46.516Z",
+    "lastContactedAt": "2026-11-11T17:47:59.694Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "skylineestates0@gmail.com": {
+    "email": "skylineestates0@gmail.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:26:13.163Z",
+    "lastContactedAt": "2026-11-11T17:48:05.959Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@spectrumproperties.co.ug": {
+    "email": "info@spectrumproperties.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:26:18.735Z",
+    "lastContactedAt": "2026-11-11T17:48:15.536Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@nasrealtors.com": {
+    "email": "info@nasrealtors.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-04T09:26:24.216Z",
+    "lastContactedAt": "2026-11-11T17:48:30.546Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "reservations.uganda@thelatitudehotels.com": {
+    "email": "reservations.uganda@thelatitudehotels.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:23:07.038Z",
+    "lastContactedAt": "2026-11-11T17:48:43.019Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@proteaebb.co.ug": {
+    "email": "info@proteaebb.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:23:12.772Z",
+    "lastContactedAt": "2026-11-11T17:48:48.712Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "sales@kensingtonproperties.com": {
+    "email": "sales@kensingtonproperties.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:23:40.075Z",
+    "lastContactedAt": "2026-11-11T17:48:57.502Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@forest-cottages.com": {
+    "email": "info@forest-cottages.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:24:06.787Z",
+    "lastContactedAt": "2026-11-11T17:49:04.079Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@kabiracountryclub.com": {
+    "email": "info@kabiracountryclub.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:24:18.897Z",
+    "lastContactedAt": "2026-11-11T17:49:09.854Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@spekeapartments.com": {
+    "email": "info@spekeapartments.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:24:45.594Z",
+    "lastContactedAt": "2026-11-11T17:49:28.625Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@dolphinsuites.co.ug": {
+    "email": "info@dolphinsuites.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:24:56.341Z",
+    "lastContactedAt": "2026-11-11T17:49:35.248Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@victoriarockresort.com": {
+    "email": "info@victoriarockresort.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:25:03.996Z",
+    "lastContactedAt": "2026-11-11T17:49:51.294Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@bukotoheights.com": {
+    "email": "info@bukotoheights.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:25:30.749Z",
+    "lastContactedAt": "2026-11-11T17:49:56.980Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@lepetitvillage.net": {
+    "email": "info@lepetitvillage.net",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-06T12:25:59.322Z",
+    "lastContactedAt": "2026-11-11T17:50:13.091Z",
+    "followUpCount": 1,
+    "bounced": true
+  },
+  "info@seyani.com": {
+    "email": "info@seyani.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T06:13:01.281Z",
+    "lastContactedAt": "2026-11-14T06:13:01.281Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@excelconstruction.org": {
+    "email": "info@excelconstruction.org",
+    "status": "Sent (2026-11-14 06:13)",
+    "sentAt": "2026-11-14T06:13:07.916Z",
+    "lastContactedAt": "2026-11-14T06:13:07.916Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@cementers.com": {
+    "email": "info@cementers.com",
+    "status": "Sent (2026-11-14 06:18)",
+    "sentAt": "2026-11-14T06:18:27.183Z",
+    "lastContactedAt": "2026-11-14T06:18:27.183Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@fbwgroup.com": {
+    "email": "info@fbwgroup.com",
+    "status": "Sent (2026-11-14 06:18)",
+    "sentAt": "2026-11-14T06:18:33.671Z",
+    "lastContactedAt": "2026-11-14T06:18:33.671Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@archforumltd.com": {
+    "email": "info@archforumltd.com",
+    "status": "Sent (2026-11-14 06:22)",
+    "sentAt": "2026-11-14T06:22:56.625Z",
+    "lastContactedAt": "2026-11-14T06:22:56.625Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "uganda@knightfrank.com": {
+    "email": "uganda@knightfrank.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T06:23:02.758Z",
+    "lastContactedAt": "2026-11-14T06:23:02.758Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@broll.co.ug": {
+    "email": "info@broll.co.ug",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T06:27:36.532Z",
+    "lastContactedAt": "2026-11-14T06:27:36.532Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@nhcc.co.ug": {
+    "email": "info@nhcc.co.ug",
+    "status": "Sent (2026-11-14 06:27)",
+    "sentAt": "2026-11-14T06:27:42.472Z",
+    "lastContactedAt": "2026-11-14T06:27:42.472Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@fairwayhotel.co.ug": {
+    "email": "info@fairwayhotel.co.ug",
+    "status": "Sent (2026-11-14 06:32)",
+    "sentAt": "2026-11-14T06:32:00.123Z",
+    "lastContactedAt": "2026-11-14T06:32:00.123Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@golfcoursehotel.com": {
+    "email": "info@golfcoursehotel.com",
+    "status": "Sent (2026-11-14 06:32)",
+    "sentAt": "2026-11-14T06:32:06.185Z",
+    "lastContactedAt": "2026-11-14T06:32:06.185Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@eminpasha.com": {
+    "email": "info@eminpasha.com",
+    "status": "Sent (2026-11-14 06:36)",
+    "sentAt": "2026-11-14T06:36:10.661Z",
+    "lastContactedAt": "2026-11-14T06:36:10.661Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@boma.co.ug": {
+    "email": "info@boma.co.ug",
+    "status": "Sent (2026-11-14 06:36)",
+    "sentAt": "2026-11-14T06:36:16.628Z",
+    "lastContactedAt": "2026-11-14T06:36:16.628Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@renewills.com": {
+    "email": "info@renewills.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T07:01:57.487Z",
+    "lastContactedAt": "2026-11-14T07:01:57.487Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@2friendshotel.com": {
+    "email": "info@2friendshotel.com",
+    "status": "Sent (2026-11-14 07:07)",
+    "sentAt": "2026-11-14T07:07:08.109Z",
+    "lastContactedAt": "2026-11-14T07:07:08.109Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@hotelno5.com": {
+    "email": "info@hotelno5.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T07:07:18.088Z",
+    "lastContactedAt": "2026-11-14T07:07:18.088Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@onomo.com": {
+    "email": "info@onomo.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T07:21:40.237Z",
+    "lastContactedAt": "2026-11-14T07:21:40.237Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@munyonyocommonwealth.com": {
+    "email": "info@munyonyocommonwealth.com",
+    "status": "Sent (2026-11-14 07:21)",
+    "sentAt": "2026-11-14T07:21:46.855Z",
+    "lastContactedAt": "2026-11-14T07:21:46.855Z",
+    "followUpCount": 0,
+    "bounced": false
+  }
+}

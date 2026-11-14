@@ -1,0 +1,36 @@
+{
+  "name": "fitbit-interior-lead-agent",
+  "version": "3.0.0",
+  "description": "Full B2B client discovery, PDF catalogue generator, WhatsApp link builder, IMAP reply detector, and automated email/follow-up suite for Fitbit Interiors",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js",
+    "sniper": "node real_estate_sniper.js",
+    "jiji": "node jiji_scraper.js",
+    "quote": "node quote_generator.js",
+    "whatsapp": "node whatsapp_dispatcher.js",
+    "discover": "node scraper.js",
+    "catalog": "node catalog_generator.js",
+    "sync": "node sync.js",
+    "send": "node mailer.js",
+    "followup": "node mailer.js --followup",
+    "replies": "node reply_checker.js",
+    "pipeline": "node scheduler.js --dry-run",
+    "schedule": "node scheduler.js --daemon",
+    "dry-run": "node mailer.js --dry-run"
+  },
+  "keywords": [
+    "interior-design",
+    "lead-generation",
+    "google-sheets",
+    "automated-email",
+    "whatsapp-outreach"
+  ],
+  "author": "Fitbit Interiors",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "nodemailer": "^8.0.5",
+    "pdfkit": "^0.18.0"
+  }
+}
