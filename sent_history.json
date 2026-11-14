@@ -646,5 +646,93 @@
     "lastContactedAt": "2026-11-14T07:21:46.855Z",
     "followUpCount": 0,
     "bounced": false
+  },
+  "info@sheratonkampala.com": {
+    "email": "info@sheratonkampala.com",
+    "status": "Sent (2026-11-14 08:18)",
+    "sentAt": "2026-11-14T08:18:02.856Z",
+    "lastContactedAt": "2026-11-14T08:18:02.856Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@imperialhotels.co.ug": {
+    "email": "info@imperialhotels.co.ug",
+    "status": "Sent (2026-11-14 08:18)",
+    "sentAt": "2026-11-14T08:18:09.272Z",
+    "lastContactedAt": "2026-11-14T08:18:09.272Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@nakaserohospital.com": {
+    "email": "info@nakaserohospital.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T08:22:18.857Z",
+    "lastContactedAt": "2026-11-14T08:22:18.857Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@tmrinternational.org": {
+    "email": "info@tmrinternational.org",
+    "status": "Sent (2026-11-14 08:22)",
+    "sentAt": "2026-11-14T08:22:25.480Z",
+    "lastContactedAt": "2026-11-14T08:22:25.480Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@kampalainternationalschool.com": {
+    "email": "info@kampalainternationalschool.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T08:27:57.637Z",
+    "lastContactedAt": "2026-11-14T08:27:57.637Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@wildplacesafrica.com": {
+    "email": "info@wildplacesafrica.com",
+    "status": "Sent (2026-11-14 08:28)",
+    "sentAt": "2026-11-14T08:28:03.632Z",
+    "lastContactedAt": "2026-11-14T08:28:03.632Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@marasa.net": {
+    "email": "info@marasa.net",
+    "status": "Sent (2026-11-14 08:33)",
+    "sentAt": "2026-11-14T08:33:16.631Z",
+    "lastContactedAt": "2026-11-14T08:33:16.631Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@volcanoessafaris.com": {
+    "email": "info@volcanoessafaris.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T08:33:22.867Z",
+    "lastContactedAt": "2026-11-14T08:33:22.867Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@ugandalodges.com": {
+    "email": "info@ugandalodges.com",
+    "status": "Sent (2026-11-14 08:38)",
+    "sentAt": "2026-11-14T08:38:33.866Z",
+    "lastContactedAt": "2026-11-14T08:38:33.866Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@kyaningalodge.com": {
+    "email": "info@kyaningalodge.com",
+    "status": "Sent (2026-11-14 08:38)",
+    "sentAt": "2026-11-14T08:38:41.711Z",
+    "lastContactedAt": "2026-11-14T08:38:41.711Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@entebbepalm.com": {
+    "email": "info@entebbepalm.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-14T08:43:20.344Z",
+    "lastContactedAt": "2026-11-14T08:43:20.344Z",
+    "followUpCount": 0,
+    "bounced": true
   }
 }
