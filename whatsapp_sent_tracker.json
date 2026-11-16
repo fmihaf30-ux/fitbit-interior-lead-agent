@@ -1,4 +1,426 @@
 {
-  "sentPhones": [],
-  "log": []
+  "sentPhones": [
+    "256706886449",
+    "256705218332",
+    "256758589258",
+    "256706415648",
+    "256781569822",
+    "256752988428",
+    "256772459292",
+    "256709688141",
+    "256751127725",
+    "256703526489",
+    "256702805935",
+    "256758679150",
+    "256787770445",
+    "256758828536",
+    "256772637525",
+    "256773765699",
+    "256703892637",
+    "256772018716",
+    "256774755146",
+    "256772673487",
+    "256777019716",
+    "256704364020",
+    "256773216580",
+    "256703940200",
+    "256772084702",
+    "256772803170",
+    "256701970427",
+    "256787940205",
+    "256754613864",
+    "256755789031",
+    "256761677049",
+    "256703102269",
+    "256778071531",
+    "256753979578",
+    "256768462372",
+    "256784575146",
+    "256774117734",
+    "256703148904",
+    "256742269410",
+    "256761625926",
+    "256702778485",
+    "256774520809",
+    "256753793631",
+    "256776815162",
+    "256703893940",
+    "256744370947",
+    "256774671120",
+    "256769438849",
+    "256765680448",
+    "256787531098",
+    "256785434430",
+    "256749932476",
+    "256757862320",
+    "256772439777",
+    "256703487536",
+    "256782430360",
+    "256706304540",
+    "256741535816",
+    "256705721102",
+    "256703200619",
+    "256756426340",
+    "256701980309",
+    "256772438105",
+    "256753243317",
+    "256783519934",
+    "256775698697",
+    "256795043537",
+    "256700977886",
+    "256703081044"
+  ],
+  "log": [
+    {
+      "phone": "256706886449",
+      "agentName": "Grace and Truth Real Estates (Agent Grace)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256705218332",
+      "agentName": "Mega Property Services",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256758589258",
+      "agentName": "Vaniland Property Consultants (Agent Ivan)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256706415648",
+      "agentName": "Sacred Property Services Uganda Ltd",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256781569822",
+      "agentName": "Henley Property Developers / Skyline Estates",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256752988428",
+      "agentName": "Olinga Simon Peter (Independent Property Agent)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256772459292",
+      "agentName": "Villa Real Estates Property (U) Ltd",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256709688141",
+      "agentName": "Agent Cathy",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256751127725",
+      "agentName": "Agent Praise",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703526489",
+      "agentName": "Agent Sheila",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256702805935",
+      "agentName": "Agent Hubert",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256758679150",
+      "agentName": "Agent George",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256787770445",
+      "agentName": "Agent Bonny",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256758828536",
+      "agentName": "Agent Alpha",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256772637525",
+      "agentName": "Agent Catherine",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256773765699",
+      "agentName": "Agent J&S",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703892637",
+      "agentName": "Agent David",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256772018716",
+      "agentName": "Agent Alex",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256774755146",
+      "agentName": "Agent Posh",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256772673487",
+      "agentName": "Agent Alvan",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256777019716",
+      "agentName": "Agent Debrine",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256704364020",
+      "agentName": "Agent Vivian",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256773216580",
+      "agentName": "Agent Ivan",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703940200",
+      "agentName": "Agent Stephen",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256772084702",
+      "agentName": "Agent Jacent",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256772803170",
+      "agentName": "Agent Denis",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256701970427",
+      "agentName": "Property Agent (PropertyPro Uganda)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256787940205",
+      "agentName": "Property Agent (PropertyPro Uganda)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256754613864",
+      "agentName": "Agent (3 Bedroom Apartment)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256755789031",
+      "agentName": "Agent (3 Bedroom Apartment)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256761677049",
+      "agentName": "Agent (3 Bedroom House)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703102269",
+      "agentName": "Agent (Commercial Office Space, Fully Furn)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256778071531",
+      "agentName": "Agent (3 Bed Room Self Contained House in )",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256753979578",
+      "agentName": "Agent (Newly Built 1 Bedroom Apartment)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256768462372",
+      "agentName": "Agent (Residential Land)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256784575146",
+      "agentName": "Agent (12 Bedroom House with 3 Bedroom Bun)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256774117734",
+      "agentName": "Agent (Multi)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703148904",
+      "agentName": "Agent (Multi)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256742269410",
+      "agentName": "Agent (Small Investment Property)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256761625926",
+      "agentName": "Agent (5 Double Room Rentals)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256702778485",
+      "agentName": "Agent (3 Bedroom Freehold House)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256774520809",
+      "agentName": "Agent (Land)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256753793631",
+      "agentName": "Agent (Land)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256776815162",
+      "agentName": "Agent (Land)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703893940",
+      "agentName": "Agent (Commercial Property 39 Decimals at )",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256744370947",
+      "agentName": "Agent (3 BHK +1)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256774671120",
+      "agentName": "Landlord / Agent (3bdrm Apartment in Lubowa, Central)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256769438849",
+      "agentName": "Landlord / Agent (2bdrm Apartment in Naguru, Central)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256765680448",
+      "agentName": "Agent Annabel",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256787531098",
+      "agentName": "Agent Hope",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256785434430",
+      "agentName": "Agent Peter",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256749932476",
+      "agentName": "Agent Kisakye",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256757862320",
+      "agentName": "Agent Catherine",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256772439777",
+      "agentName": "Agent Lynn",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703487536",
+      "agentName": "Agent Isma",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256782430360",
+      "agentName": "Property Agent (Uganda Property Centre)",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256706304540",
+      "agentName": "Agent Moses",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256741535816",
+      "agentName": "Agent Alvan",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256705721102",
+      "agentName": "Agent Aaron",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703200619",
+      "agentName": "Agent David",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256756426340",
+      "agentName": "Agent Abdul",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256701980309",
+      "agentName": "Agent Toney",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256772438105",
+      "agentName": "Agent Elly",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256753243317",
+      "agentName": "Agent Sarah",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256783519934",
+      "agentName": "Agent Tugumisirize",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256775698697",
+      "agentName": "Agent Samuel",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256795043537",
+      "agentName": "Agent Amos",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256700977886",
+      "agentName": "Agent Moses",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256703081044",
+      "agentName": "Agent Najjingo",
+      "pitchedAt": "2026-11-16T15:00:45.324Z"
+    },
+    {
+      "phone": "256706886449",
+      "agentName": "Grace and Truth Real Estates (Agent Grace)",
+      "status": "Pitched",
+      "pitchedAt": "2026-11-16T15:18:27.682Z"
+    }
+  ]
 }

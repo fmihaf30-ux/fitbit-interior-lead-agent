@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fitbit Interiors — Pixel-Agents 2D Office &amp; Live Operations Report</title>
+  <title>Fitbit Interiors — Autonomous 2D Pixel Office &amp; Live Lead Operations</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
@@ -14,128 +14,15 @@
       src: url('/pa-assets/fonts/FSPixelSansUnicode-Regular.ttf') format('truetype');
       font-display: swap;
     }
-    .phase-pills {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      flex-wrap: wrap;
-    }
-    .phase-pill {
-      padding: 5px 10px;
-      border-radius: 6px;
-      font-size: 11px;
-      font-weight: 600;
-      border: 1px solid #222c3f;
-      background: #141c2b;
-      color: #94a3b8;
-      cursor: pointer;
-      transition: all 0.15s ease;
-    }
-    .phase-pill:hover {
-      border-color: #475569;
-      color: #f8fafc;
-    }
-    .phase-pill.active-work {
-      background: rgba(16, 185, 129, 0.16);
-      border-color: #10b981;
-      color: #6ee7b7;
-    }
-    .phase-pill.active-break {
-      background: rgba(245, 158, 11, 0.16);
-      border-color: #f59e0b;
-      color: #fde68a;
-    }
-    .phase-pill.active-boardroom {
-      background: rgba(168, 85, 247, 0.2);
-      border-color: #a855f7;
-      color: #e9d5ff;
-    }
-    .boardroom-banner {
-      background: linear-gradient(90deg, rgba(88, 28, 135, 0.35), rgba(15, 23, 42, 0.95));
-      border-bottom: 1px solid #222c3f;
-      padding: 10px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
-      flex-wrap: wrap;
-    }
-    .boardroom-banner-left {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 12px;
-      color: #e2e8f0;
-    }
-    .boardroom-tag {
-      background: #7e22ce;
-      color: #f3e8ff;
-      padding: 3px 8px;
-      border-radius: 4px;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-    }
-    .boardroom-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-      padding: 14px 16px;
-    }
-    @media (max-width: 900px) {
-      .boardroom-grid { grid-template-columns: 1fr; }
-    }
-    .br-card {
-      background: #0f1623;
-      border: 1px solid #222e45;
-      border-radius: 8px;
-      padding: 12px 14px;
-    }
-    .br-card h4 {
-      font-size: 12px;
-      color: #f8fafc;
-      margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .br-list {
-      list-style: none;
-      font-size: 11.5px;
-      color: #cbd5e1;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-    .br-list li {
-      padding: 3px 6px;
-      background: #141d2e;
-      border-radius: 4px;
-      border-left: 2px solid #3b82f6;
-    }
-    .br-list.bounced li {
-      border-left-color: #ef4444;
-      color: #fca5a5;
-    }
-    .br-list.replied li {
-      border-left-color: #10b981;
-      color: #86efac;
-    }
-    .badge-bounced {
-      background: rgba(239, 68, 68, 0.16);
-      color: #fca5a5;
-      border: 1px solid rgba(239, 68, 68, 0.4);
-    }
   </style>
 </head>
 <body>
-  <!-- CLEAN MINIMAL HEADER -->
+  <!-- CLEAN EXECUTIVE TOPBAR -->
   <header class="topbar">
     <div class="brand">
       <div class="brand-mark">FI</div>
       <div>
-        <div class="brand-title">Fitbit Interiors Kampala — Pixel-Agents 2D Office</div>
+        <div class="brand-title">Fitbit Interiors Kampala — Autonomous 2D Office &amp; CRM</div>
         <div class="brand-sub">
           Curtains, Sheer Fabrics, Heavy-Duty Tracks &amp; Modern Rugs •
           <a href="https://www.instagram.com/fitbit_interiors" target="_blank" rel="noopener">@fitbit_interiors</a>
@@ -145,41 +32,94 @@
 
     <div class="header-meta">
       <div class="sheet-links">
-        <a id="linkB2BSheet" href="https://docs.google.com/spreadsheets/d/1DccztSapaRwXO2Vf30RA7LWVvBGcBD7ctJSbKPE7bWA/edit" target="_blank" rel="noopener">B2B Google Sheet ↗</a>
+        <a id="linkB2BSheet" href="https://docs.google.com/spreadsheets/d/1DccztSapaRwXO2Vf30RA7LWVvBGcBD7ctJSbKPE7bWA/edit" target="_blank" rel="noopener">B2B Sheet ↗</a>
         <span class="sep">|</span>
         <a id="linkAgentsSheet" href="https://docs.google.com/spreadsheets/d/1lCDYON87G5SfE-bjKlbzgApRbpkzm1WngV2kTXz_XW4/edit" target="_blank" rel="noopener">Property Agents Sheet ↗</a>
         <span class="sep">|</span>
         <a href="/catalogue.pdf" target="_blank" rel="noopener">1-Page PDF Catalogue ↗</a>
         <span class="sep">|</span>
-        <a href="/website/index.html" target="_blank" rel="noopener" style="color:#fcd34d; font-weight:700;">Public Google SEO Website ↗</a>
+        <a href="/website/index.html" target="_blank" rel="noopener" style="color:#fcd34d; font-weight:700;">Live Google SEO Website ↗</a>
       </div>
     </div>
 
     <div class="top-actions">
       <div class="phase-pills">
         <button class="phase-pill active-work" id="pillWorking" onclick="switchOfficePhase('working')" title="Active Work Shift at Desks">1. Work Shift</button>
-        <button class="phase-pill" id="pillBreak" onclick="switchOfficePhase('break')" title="Timed Coffee &amp; Lounge Break">2. Timed Break</button>
-        <button class="phase-pill" id="pillBoardroom" onclick="switchOfficePhase('boardroom')" title="Post-Break Boardroom Meeting: What's New">3. Boardroom Meeting</button>
+        <button class="phase-pill" id="pillBreak" onclick="switchOfficePhase('break')" title="Timed Coffee &amp; Lounge Break">2. Coffee Break</button>
+        <button class="phase-pill" id="pillBoardroom" onclick="switchOfficePhase('boardroom')" title="Post-Break Boardroom Review: What's New">3. Boardroom Meeting</button>
       </div>
       <div class="shift-indicator">
         <span class="shift-dot" id="shiftDot"></span>
-        <span id="shiftLabel">Active Work Shift • Next Break in 02:30</span>
+        <span id="shiftLabel">Active Work Shift • Timed Break in 02:30</span>
       </div>
     </div>
   </header>
 
   <main class="container">
     <!-- ================================================================== -->
-    <!-- UP: FULL-WIDTH AUTHENTIC PIXEL-AGENTS 2D OFFICE WORKFLOOR          -->
+    <!-- 0. TOP EXECUTIVE KPI METRICS                                       -->
+    <!-- ================================================================== -->
+    <section class="kpi-grid">
+      <!-- KPI 1: WhatsApp Property Agents -->
+      <div class="kpi-card emerald">
+        <div class="kpi-header">
+          <span class="kpi-title">WhatsApp Property Leads</span>
+          <span class="kpi-badge" id="kpiWaBadge">10% Commission</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiWaTotal">71</span>
+          <span class="kpi-sub"><strong id="kpiWaPitched">69</strong> Pitched • <strong id="kpiWaFresh" style="color:#6ee7b7;">0</strong> Fresh</span>
+        </div>
+      </div>
+
+      <!-- KPI 2: B2B Email Outreach -->
+      <div class="kpi-card purple">
+        <div class="kpi-header">
+          <span class="kpi-title">B2B Email Outreach</span>
+          <span class="kpi-badge" id="kpiB2BBadge">MX Verified</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiB2BTotal">61</span>
+          <span class="kpi-sub"><strong id="kpiEmailsSent">55</strong> Sent • <strong id="kpiBouncedStopped" style="color:#fca5a5;">22</strong> Blocked</span>
+        </div>
+      </div>
+
+      <!-- KPI 3: Confirmed Human Replies -->
+      <div class="kpi-card gold">
+        <div class="kpi-header">
+          <span class="kpi-title">Confirmed Human Replies</span>
+          <span class="kpi-badge">Warm Leads</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiRepliesTotal">9</span>
+          <span class="kpi-sub">3 B2B Emails + 6 WhatsApp Agents</span>
+        </div>
+      </div>
+
+      <!-- KPI 4: Operations Engine -->
+      <div class="kpi-card cyan">
+        <div class="kpi-header">
+          <span class="kpi-title">Autonomous Office Shift</span>
+          <span class="kpi-badge" id="kpiShiftBadge">Shift #1</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiShiftRemaining">02:30</span>
+          <span class="kpi-sub" id="kpiShiftSub">Sarah &amp; Emma Active</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- 1. FULL-WIDTH 2D PIXEL OFFICE WORKFLOOR                            -->
     <!-- ================================================================== -->
     <section class="office-card">
       <div class="boardroom-banner">
         <div class="boardroom-banner-left">
           <span class="boardroom-tag" id="bannerTag">OFFICE CYCLE</span>
-          <span id="bannerText">Work Shift -> Timed Kitchen/Lounge Break -> End-of-Break Boardroom Meeting (Reviewing What's New Added &amp; Sent)</span>
+          <span id="bannerText">Sarah scans listings &amp; B2B -> Emma dispatches SMTP -> David syncs WhatsApp -> Grace monitors replies</span>
         </div>
         <div style="font-size:11.5px; color:#94a3b8;">
-          <strong style="color:#fca5a5;" id="bannerBounceStat">10 Bounced/Invalid Domains Stopped</strong> •
+          <strong style="color:#fca5a5;" id="bannerBounceStat">22 Bounced/Invalid Stopped</strong> •
           <strong style="color:#86efac;" id="bannerReplyStat">9 Confirmed Human Replies</strong>
         </div>
       </div>
@@ -188,24 +128,24 @@
         <canvas id="pixelOfficeCanvas" width="1088" height="640"></canvas>
       </div>
 
-      <!-- COMPACT DESK SUMMARY BAR UNDER WORKFLOOR -->
+      <!-- COMPACT WORKSTATION STRIP -->
       <div class="desk-strip">
         <div class="desk-cell">
           <div class="desk-cell-top">
             <span class="dot dot-blue"></span>
             <strong>Desk 1 • Sarah (Scout)</strong>
-            <span class="desk-metric" id="metricScoutTotal">175</span>
+            <span class="desk-metric" id="metricScoutTotal">132</span>
           </div>
-          <span class="desk-cell-sub" id="subSarah">Live Scraping Suburbs &amp; MX-Verified B2B Leads</span>
+          <span class="desk-cell-sub" id="subSarah">Live Scraping RED, Jiji &amp; Ugandan B2B Catalog</span>
         </div>
 
         <div class="desk-cell">
           <div class="desk-cell-top">
             <span class="dot dot-green"></span>
             <strong>Desk 2 • David (WhatsApp)</strong>
-            <span class="desk-metric" id="metricWaContacted">110 WA</span>
+            <span class="desk-metric" id="metricWaContacted">71 WA</span>
           </div>
-          <span class="desk-cell-sub" id="subDavid">Syncing WA Numbers to Google Sheet</span>
+          <span class="desk-cell-sub" id="subDavid">10% Commission Links &amp; Pitch Status Tracker</span>
         </div>
 
         <div class="desk-cell">
@@ -214,7 +154,7 @@
             <strong>Desk 3 • Emma (B2B Email)</strong>
             <span class="desk-metric" id="metricEmailSent">55 Sent</span>
           </div>
-          <span class="desk-cell-sub" id="subEmma">Sending MX-Verified SMTP &amp; Blocking Bounces</span>
+          <span class="desk-cell-sub" id="subEmma">Automated Gmail SMTP with PDF Catalogue</span>
         </div>
 
         <div class="desk-cell">
@@ -223,16 +163,16 @@
             <strong>Desk 4 • Grace (Replies)</strong>
             <span class="desk-metric" id="metricReplies">9 Replies</span>
           </div>
-          <span class="desk-cell-sub" id="subGrace">Dream Architects &amp; Cassia Lodge Replied!</span>
+          <span class="desk-cell-sub" id="subGrace">Scanning Gmail IMAP (Dream Architects &amp; Cassia Lodge)</span>
         </div>
 
         <div class="desk-cell">
           <div class="desk-cell-top">
             <span class="dot dot-gold"></span>
-            <strong>Exec • Fahim (Manager)</strong>
+            <strong>Exec • Fahim (Boss)</strong>
             <span class="desk-metric">Boardroom</span>
           </div>
-          <span class="desk-cell-sub" id="subFahim">Chairing Post-Break Boardroom Reviews</span>
+          <span class="desk-cell-sub" id="subFahim">Chairing Post-Break Boardroom Updates</span>
         </div>
       </div>
 
@@ -244,33 +184,33 @@
     </section>
 
     <!-- ================================================================== -->
-    <!-- DOWN: BOARDROOM "WHAT'S NEW" SUMMARY + COMPLETE OPERATIONS REPORT  -->
+    <!-- 2. OPERATIONS REPORT & LIVE INTERACTIVE TABLES                     -->
     <!-- ================================================================== -->
     <section class="report-section">
-      <!-- 0. END-OF-BREAK BOARDROOM MEETING: WHAT'S NEW & BOUNCE PROTECTION -->
+      <!-- 2.0 BOARDROOM "WHAT'S NEW" REPORT -->
       <div class="report-block">
         <div class="block-head">
-          <h3>Boardroom Meeting Report — What's New Added, Sent &amp; Bounced Protection</h3>
-          <span class="block-tag tag-green" id="boardroomStatusTag">End-of-Break Standup Summary</span>
+          <h3>Boardroom Standup Summary — Shift Progress &amp; Bounce Shield</h3>
+          <span class="block-tag tag-green" id="boardroomStatusTag">End-of-Break Standup Review</span>
         </div>
         <div class="boardroom-grid">
           <div class="br-card">
             <h4>
-              <span>Newly Added MX-Verified Leads (Sarah &amp; Emma)</span>
-              <span class="badge badge-sent" id="brNewCountBadge">Live Discovery</span>
+              <span>Newly Added Leads (Sarah &amp; Emma)</span>
+              <span class="badge badge-sent" id="brNewCountBadge">Continuous Discovery</span>
             </h4>
             <ul class="br-list" id="brNewLeadsList"></ul>
           </div>
           <div class="br-card">
             <h4>
-              <span>Blocked / Bounced Emails (Follow-Ups Stopped)</span>
-              <span class="badge badge-bounced" id="brBounceCountBadge">10 Stopped</span>
+              <span>Blocked / Bounced Emails (Protected)</span>
+              <span class="badge badge-bounced" id="brBounceCountBadge">22 Stopped</span>
             </h4>
             <ul class="br-list bounced" id="brBouncedList"></ul>
           </div>
           <div class="br-card">
             <h4>
-              <span>Latest Human Replies (Grace IMAP &amp; WhatsApp)</span>
+              <span>Latest Human Replies (IMAP &amp; WA)</span>
               <span class="badge badge-replied">9 Confirmed</span>
             </h4>
             <ul class="br-list replied" id="brLatestRepliesList"></ul>
@@ -278,42 +218,49 @@
         </div>
       </div>
 
-      <div class="report-header">
-        <div>
-          <h2>Complete Fitbit Interiors Operations &amp; Outreach Report</h2>
-          <p>Live record of all B2B emails, MX/bounce verification, WhatsApp property agent partnerships, and confirmed replies.</p>
-        </div>
-        <div class="report-filter">
-          <input type="text" id="reportSearch" placeholder="Search leads, agents, suburbs, or emails..." oninput="renderTables()" />
-        </div>
-      </div>
-
-      <!-- 1. CONFIRMED REPLIES & ENGAGED PARTNERS -->
-      <div class="report-block">
+      <!-- 2.1 WHATSAPP PROPERTY AGENTS TABLE WITH DYNAMIC PITCH TRACKER -->
+      <div class="report-block" id="secWaAgents">
         <div class="block-head">
-          <h3>1. Confirmed Client &amp; Property Agent Replies (<span id="countConfirmedReplies">9</span> Active Responses)</h3>
-          <span class="block-tag tag-green">3 B2B Email Replies + 6 WhatsApp Agent Replies</span>
+          <h3>
+            <span>Desk 1 &amp; 2 • WhatsApp Property Agents</span>
+            <span class="badge badge-fresh" id="freshPillBadge" style="display:none;">0 Fresh Unpitched</span>
+          </h3>
+          <div class="block-head-right">
+            <div class="search-wrap">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="reportSearch" placeholder="Search agents, suburbs, numbers, or triggers..." oninput="renderTables()" />
+            </div>
+            <button class="phase-pill" onclick="markAllPitched()" title="Mark all uncontacted as pitched">Mark All Pitched</button>
+          </div>
         </div>
-        <div class="replies-grid" id="repliesGrid"></div>
-      </div>
 
-      <!-- 2. WHATSAPP PROPERTY AGENTS REPORT -->
-      <div class="report-block">
-        <div class="block-head">
-          <h3>2. Desk 1 &amp; 2 Report — WhatsApp Property Agents (<span id="countWaAgents">110</span> Verified Mobile Agents)</h3>
-          <span class="block-tag">6 Replied • 10% Referral Commission Offer</span>
+        <!-- FILTER TABS FOR WHATSAPP LEADS -->
+        <div class="filter-tabs">
+          <button class="filter-tab active" id="tabWaAll" onclick="setWaFilter('all')">
+            All Agents <span class="tab-badge" id="badgeTabWaAll">71</span>
+          </button>
+          <button class="filter-tab tab-fresh" id="tabWaFresh" onclick="setWaFilter('fresh')">
+            ⚡ Fresh / Unpitched <span class="tab-badge" id="badgeTabWaFresh">0</span>
+          </button>
+          <button class="filter-tab" id="tabWaPitched" onclick="setWaFilter('pitched')">
+            ✓ Already Pitched <span class="tab-badge" id="badgeTabWaPitched">69</span>
+          </button>
+          <button class="filter-tab" id="tabWaReplied" onclick="setWaFilter('replied')">
+            💬 Confirmed Replied <span class="tab-badge" id="badgeTabWaReplied">2</span>
+          </button>
         </div>
+
         <div class="table-wrap">
           <table class="report-table">
             <thead>
               <tr>
-                <th>#</th>
+                <th style="width: 40px;">#</th>
                 <th>Property Agent / Agency</th>
                 <th>Suburb / Area</th>
-                <th>Phone</th>
-                <th>Newly Built Property Trigger</th>
-                <th>Status</th>
-                <th>Action</th>
+                <th>WhatsApp Phone</th>
+                <th>Newly Listed Property Trigger</th>
+                <th style="width: 140px;">Pitch Status</th>
+                <th style="width: 150px; text-align: right;">Action</th>
               </tr>
             </thead>
             <tbody id="waAgentsTableBody"></tbody>
@@ -321,32 +268,66 @@
         </div>
       </div>
 
-      <!-- 3. B2B EMAIL & FOLLOW-UP REPORT -->
-      <div class="report-block">
+      <!-- 2.2 B2B EMAIL & AUTOMATED FOLLOW-UP CAMPAIGN -->
+      <div class="report-block" id="secB2BEmails">
         <div class="block-head">
-          <h3>3. Desk 3 Report — B2B Email &amp; Follow-Up Campaign (<span id="countB2BLeads">65</span> Companies)</h3>
-          <span class="block-tag">MX-Verified • Bounced/Blocked Automatically Stopped • PDF Catalogue Attached</span>
+          <h3>Desk 3 • B2B Email Outreach (<span id="countB2BLeads">61</span> Companies)</h3>
+          <div class="block-head-right">
+            <span class="block-tag">Auto Gmail SMTP • PDF Catalogue Attached • MX Protected</span>
+          </div>
         </div>
+
+        <!-- FILTER TABS FOR B2B EMAILS -->
+        <div class="filter-tabs">
+          <button class="filter-tab active" id="tabB2BAll" onclick="setB2BFilter('all')">
+            All Companies <span class="tab-badge" id="badgeTabB2BAll">61</span>
+          </button>
+          <button class="filter-tab" id="tabB2BReady" onclick="setB2BFilter('ready')">
+            Queued for Emma <span class="tab-badge" id="badgeTabB2BReady">2</span>
+          </button>
+          <button class="filter-tab" id="tabB2BSent" onclick="setB2BFilter('sent')">
+            Initial Pitch Sent <span class="tab-badge" id="badgeTabB2BSent">55</span>
+          </button>
+          <button class="filter-tab" id="tabB2BReplied" onclick="setB2BFilter('replied')">
+            Replied (Hot Leads) <span class="tab-badge" id="badgeTabB2BReplied">3</span>
+          </button>
+          <button class="filter-tab" id="tabB2BBlocked" onclick="setB2BFilter('blocked')">
+            Blocked (Bounced) <span class="tab-badge" id="badgeTabB2BBlocked">22</span>
+          </button>
+        </div>
+
         <div class="table-wrap">
           <table class="report-table">
             <thead>
               <tr>
-                <th>#</th>
+                <th style="width: 40px;">#</th>
                 <th>Company / Hotel / Designer</th>
-                <th>Category</th>
+                <th>Industry Category</th>
                 <th>Location</th>
-                <th>Email</th>
+                <th>Email Address</th>
                 <th>Phone</th>
-                <th>Campaign Status</th>
-                <th>Follow-Ups</th>
+                <th>Outreach Status</th>
+                <th>Follow-Up Stage</th>
               </tr>
             </thead>
             <tbody id="b2bTableBody"></tbody>
           </table>
         </div>
       </div>
+
+      <!-- 2.3 CONFIRMED CLIENT & PARTNER REPLIES -->
+      <div class="report-block">
+        <div class="block-head">
+          <h3>Confirmed Human Partner &amp; Client Replies (<span id="countConfirmedReplies">9</span> Active)</h3>
+          <span class="block-tag tag-green">3 B2B Email Replies + 6 WhatsApp Property Agent Partners</span>
+        </div>
+        <div class="replies-grid" id="repliesGrid"></div>
+      </div>
     </section>
   </main>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toastContainer"></div>
 
   <script src="pa-wardrobe.js"></script>
   <script src="pixel-office.js"></script>

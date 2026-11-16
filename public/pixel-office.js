@@ -44,6 +44,9 @@
     floor_3: '/pa-assets/floors/floor_3.png',
     floor_7: '/pa-assets/floors/floor_7.png',
     floor_8: '/pa-assets/floors/floor_8.png',
+    carpet_0: '/pa-assets/carpets/carpet_0.png',
+    carpet_1: '/pa-assets/carpets/carpet_1.png',
+    carpet_2: '/pa-assets/carpets/carpet_2.png',
     DESK_FRONT: '/pa-assets/furniture/DESK/DESK_FRONT.png',
     TABLE_FRONT: '/pa-assets/furniture/TABLE_FRONT/TABLE_FRONT.png',
     SMALL_TABLE_FRONT: '/pa-assets/furniture/SMALL_TABLE/SMALL_TABLE_FRONT.png',
@@ -132,11 +135,11 @@
 
   function rebuildFloorBuffer() {
     if (!images.floor_7 || !images.floor_1 || !images.floor_2 || !images.floor_8 || !images.floor_3) return;
-    tintedFloors.woodMain    = buildTintedFloorTile(images.floor_7, 31, 46, 8, 14);   // Warm oak workfloor
-    tintedFloors.woodExec    = buildTintedFloorTile(images.floor_2, 25, 50, -6, 18);  // Executive walnut parquet
-    tintedFloors.boardCarpet = buildTintedFloorTile(images.floor_1, 214, 38, -8, 12); // Boardroom slate-blue carpet
-    tintedFloors.kitchenTile = buildTintedFloorTile(images.floor_8, 38, 22, 26, 16);  // Kitchen cream ceramic tile
-    tintedFloors.loungeRug   = buildTintedFloorTile(images.floor_3, 225, 42, -2, 14); // Lounge woven blue carpet
+    tintedFloors.woodMain    = buildTintedFloorTile(images.floor_7, 30, 42, 6, 12);   // Warm golden oak
+    tintedFloors.woodExec    = buildTintedFloorTile(images.floor_2, 22, 52, -4, 16);  // Executive walnut parquet
+    tintedFloors.boardCarpet = buildTintedFloorTile(images.floor_1, 218, 42, -10, 14); // Boardroom midnight slate carpet
+    tintedFloors.kitchenTile = buildTintedFloorTile(images.floor_8, 36, 20, 24, 14);  // Kitchen cream ceramic tile
+    tintedFloors.loungeRug   = buildTintedFloorTile(images.floor_3, 225, 45, -4, 12); // Lounge woven blue carpet
 
     const off = document.createElement('canvas');
     off.width = COLS * TILE;
@@ -166,6 +169,25 @@
         octx.drawImage(tile, c * TILE, r * TILE);
       }
     }
+
+    // Overlay elegant custom woven rugs on top of hardwood floors to anchor each workstation pod
+    if (images.carpet_1) {
+      // Rug under Sarah & David workstation pod
+      octx.drawImage(images.carpet_1, 38, 62, 70, 52);
+      octx.drawImage(images.carpet_1, 118, 62, 70, 52);
+      // Rug under Emma & Grace workstation pod
+      const c2 = images.carpet_0 || images.carpet_1;
+      octx.drawImage(c2, 38, 190, 70, 52);
+      octx.drawImage(c2, 118, 190, 70, 52);
+      // Executive Persian rug in Fahim's office
+      const cExec = images.carpet_2 || images.carpet_1;
+      octx.drawImage(cExec, 236, 44, 76, 68);
+      // Boardroom conference rug
+      octx.drawImage(images.carpet_0 || images.carpet_1, 394, 62, 84, 52);
+      // Lounge sofa area rug
+      octx.drawImage(images.carpet_2 || images.carpet_0, 400, 252, 76, 52);
+    }
+
     floorBuffer = off;
   }
 
@@ -558,12 +580,13 @@
 
   function drawZoneSign(x, y, text, color) {
     ctx.save();
-    ctx.font = 'bold 10px "Press Start 2P", "Courier New", monospace';
+    ctx.font = '700 9.5px "Space Grotesk", "Segoe UI", sans-serif';
     const tw = ctx.measureText(text).width / SCALE;
-    pxRect(x, y, tw + 8, 11, 'rgba(13, 16, 26, 0.85)');
-    pxRect(x, y, 2, 11, color);
-    ctx.fillStyle = '#e2e8f0';
-    ctx.fillText(text, Math.round((x + 5) * SCALE), Math.round((y + 8.5) * SCALE));
+    pxRect(x, y, tw + 12, 12, 'rgba(10, 15, 26, 0.92)');
+    pxRect(x, y, tw + 12, 1, 'rgba(255, 255, 255, 0.12)');
+    pxRect(x, y, 2.5, 12, color);
+    ctx.fillStyle = '#ffffff';
+    ctx.fillText(text, Math.round((x + 6) * SCALE), Math.round((y + 9) * SCALE));
     ctx.restore();
   }
 
@@ -669,6 +692,21 @@
           const pcKey = isWorkingPhase ? `PC_ON_${pcFrameIdx}` : 'PC_OFF';
           drawAsset(pcKey, dx + 2, dy - 5);
           drawAsset('COFFEE', dx + 20, dy - 2);
+
+          // Extra modern tech accessories on desk:
+          if (isWorkingPhase) {
+            pxRect(dx + 19, dy - 3, 6, 8, '#0f172a');
+            pxRect(dx + 20, dy - 2, 4, 6, d.accent);
+          }
+          // Desk succulent plant on corner
+          pxRect(dx + 27, dy + 2, 4, 4, '#334155');
+          pxRect(dx + 27, dy - 1, 4, 3, '#10b981');
+
+          // Modern frosted glass partition between desks (Sarah | David and Emma | Grace)
+          if (d.id === 'sarah' || d.id === 'emma') {
+            pxRect(dx + 35, dy - 6, 2, 32, 'rgba(56, 189, 248, 0.35)');
+            pxRect(dx + 35, dy - 6, 1, 32, 'rgba(255, 255, 255, 0.5)');
+          }
 
           // Hover highlight around desk
           if (hoveredAgentId === d.id) {
@@ -781,13 +819,14 @@
 
   function drawDeskTag(cx, y, text, accentColor) {
     ctx.save();
-    ctx.font = 'bold 9px "Courier New", monospace';
+    ctx.font = '600 9.5px "Inter", "Segoe UI", sans-serif';
     const tw = ctx.measureText(text).width / SCALE;
-    const bx = cx - (tw + 8) / 2;
-    pxRect(bx, y, tw + 8, 10, 'rgba(15, 23, 42, 0.92)');
-    pxRect(bx, y, 2, 10, accentColor);
+    const bx = cx - (tw + 12) / 2;
+    pxRect(bx, y, tw + 12, 11, 'rgba(11, 16, 26, 0.94)');
+    pxRect(bx, y, tw + 12, 1, 'rgba(255, 255, 255, 0.1)');
+    pxRect(bx + 3, y + 3.5, 4, 4, accentColor);
     ctx.fillStyle = '#f8fafc';
-    ctx.fillText(text, Math.round((bx + 4) * SCALE), Math.round((y + 7.5) * SCALE));
+    ctx.fillText(text, Math.round((bx + 9.5) * SCALE), Math.round((y + 8.5) * SCALE));
     ctx.restore();
   }
 
@@ -961,16 +1000,21 @@
       if (!showBubble || !a.bubble) continue;
 
       ctx.save();
-      ctx.font = 'bold 10px "Segoe UI", sans-serif';
+      ctx.font = '500 11px "Inter", "Segoe UI", sans-serif';
       const text = a.bubble.length > 58 ? a.bubble.slice(0, 56) + '…' : a.bubble;
-      const tw = Math.min(240, ctx.measureText(text).width / SCALE + 12);
+      const tw = Math.min(260, ctx.measureText(text).width / SCALE + 16);
       const bx = Math.max(8, Math.min(544 - tw - 8, a.x - tw / 2));
-      const by = Math.max(6, a.y - 43);
+      const by = Math.max(6, a.y - 44);
 
-      pxRect(bx, by, tw, 12, isBoardroomSpeaker ? '#fef3c7' : '#ffffff');
-      pxRect(bx, by, tw, 1.5, isBoardroomSpeaker ? '#f59e0b' : (AGENTS_META[a.id]?.badgeColor || '#3b82f6'));
-      ctx.fillStyle = '#0f172a';
-      ctx.fillText(text, Math.round((bx + 5) * SCALE), Math.round((by + 8.8) * SCALE));
+      // Sleek obsidian speech bubble with accent border
+      pxRect(bx, by, tw, 14, 'rgba(10, 15, 26, 0.96)');
+      pxRect(bx, by, tw, 1, isBoardroomSpeaker ? '#f59e0b' : (AGENTS_META[a.id]?.badgeColor || '#3b82f6'));
+      pxRect(bx, by + 13, tw, 1, 'rgba(0, 0, 0, 0.4)');
+      // Small pointer down toward agent
+      pxRect(a.x - 2, by + 14, 4, 2, 'rgba(10, 15, 26, 0.96)');
+
+      ctx.fillStyle = isBoardroomSpeaker ? '#fef08a' : '#ffffff';
+      ctx.fillText(text, Math.round((bx + 6) * SCALE), Math.round((by + 10.5) * SCALE));
       ctx.restore();
     }
   }
