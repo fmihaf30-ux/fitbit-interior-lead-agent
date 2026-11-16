@@ -25,6 +25,9 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
+process.on('uncaughtException', err => console.error('[Office Guard] Uncaught error:', err.message));
+process.on('unhandledRejection', err => console.error('[Office Guard] Unhandled rejection:', err?.message || err));
+
 const { syncToSheets, formatPhoneForSheet } = require('./sync');
 const { runAutomatedCampaign, runFollowUpSequence } = require('./mailer');
 const { checkInboxReplies } = require('./reply_checker');

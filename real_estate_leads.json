@@ -643,7 +643,7 @@
     "altPhone": "\"+256706304540\"",
     "email": "",
     "portal": "https://www.realestatedatabase.net",
-    "status": "Pitched",
+    "status": "Replied - Asked Location & Catalogue Sent",
     "pitchedAt": "2026-11-16T15:00:45.324Z"
   },
   {
@@ -698,7 +698,7 @@
     "altPhone": "\"+256701980309\"",
     "email": "",
     "portal": "https://www.realestatedatabase.net",
-    "status": "Pitched",
+    "status": "Replied - Confirmed Partner (🙏)",
     "pitchedAt": "2026-11-16T15:00:45.324Z"
   },
   {
@@ -753,7 +753,7 @@
     "altPhone": "\"+256795043537\"",
     "email": "",
     "portal": "https://www.realestatedatabase.net",
-    "status": "Pitched",
+    "status": "Replied - Confirmed Partner (👍)",
     "pitchedAt": "2026-11-16T15:00:45.324Z"
   },
   {
@@ -764,7 +764,7 @@
     "altPhone": "\"+256700977886\"",
     "email": "",
     "portal": "https://www.realestatedatabase.net",
-    "status": "Pitched",
+    "status": "Replied - Asked Location & Catalogue Sent",
     "pitchedAt": "2026-11-16T15:00:45.324Z"
   },
   {
@@ -796,6 +796,146 @@
     "altPhone": "\"+256707249525\"",
     "email": "res@ug.knightfrank.com",
     "portal": "https://knightfrank.ug",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Landlord / Agent (5bdrm Duplex in Munyonyo, Centra)",
+    "suburb": "Central Division, Greater Kampala",
+    "listingTrigger": "5bdrm Duplex in Munyonyo, Central Division for rent (USh 3,500,000 per month)",
+    "phone": "\"+256700563489\"",
+    "altPhone": "\"+256700563489\"",
+    "email": "",
+    "portal": "https://jiji.ug/central-division/houses-apartments-for-rent/5bdrm-duplex-in-munyonyo-central-division-for-rent-k8c2aBrLEpHytLIH7Oo9wbaS.html",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Prime Property Consultants (Agent Joshua)",
+    "suburb": "Kira, Najjera & Naalya",
+    "listingTrigger": "Newly completed 4-Bed Residential Townhouses in Kira & Naalya Estates",
+    "phone": "\"+256772448375\"",
+    "altPhone": "\"+256772448375\"",
+    "email": "info@primeproperty.co.ug",
+    "portal": "https://primeproperty.co.ug",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Landlord / Agent (3bdrm House in Standalone Kisaas)",
+    "suburb": "Central Division, Greater Kampala",
+    "listingTrigger": "3bdrm House in Standalone Kisaasi, Central Division for rent (USh 750,000 per month)",
+    "phone": "\"+256756632519\"",
+    "altPhone": "\"+256756632519\"",
+    "email": "",
+    "portal": "https://jiji.ug/central-division/houses-apartments-for-rent/3bdrm-house-in-standalone-kisaasi-central-division-for-rent-fmGtTM1DHDw2GOn28PlQvgpw.html",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Vanoma Estates Uganda (Agent Brian)",
+    "suburb": "Munyonyo, Buziga & Muyenga",
+    "listingTrigger": "5-Bed Lakeside Villas in Munyonyo & Luxury Furnished Apartments in Muyenga",
+    "phone": "\"+256703554411\"",
+    "altPhone": "\"+256703554411\"",
+    "email": "vanomaestates@gmail.com",
+    "portal": "https://vanomaestates.com",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Landlord / Agent (Studio Apartment in Kawempe for)",
+    "suburb": "Kawempe, Greater Kampala",
+    "listingTrigger": "Studio Apartment in Kawempe for rent (USh 450,000 per month)",
+    "phone": "\"+256705962820\"",
+    "altPhone": "\"+256705962820\"",
+    "email": "",
+    "portal": "https://jiji.ug/kawempe/houses-apartments-for-rent/studio-apartment-in-kawempe-for-rent-wgm9TwrDAPnzhq4OdN5298Qd.html",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Musbon Real Estate (Agent Denis)",
+    "suburb": "Lubowa, Kitende & Entebbe Road",
+    "listingTrigger": "Modern 3-Bed Gated Condominiums in Lubowa & Luxury Entebbe Road Homes",
+    "phone": "\"+256772580000\"",
+    "altPhone": "\"+256772580000\"",
+    "email": "info@musbonrealestate.com",
+    "portal": "https://musbonrealestate.com",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Landlord / Agent (1bdrm Bedsitter in Nakulabye, Ru)",
+    "suburb": "Rubaga, Greater Kampala",
+    "listingTrigger": "1bdrm Bedsitter in Nakulabye, Rubaga for rent (USh 350,000 per month)",
+    "phone": "\"+256701060005\"",
+    "altPhone": "\"+256701060005\"",
+    "email": "",
+    "portal": "https://jiji.ug/rubaga/houses-apartments-for-rent/1bdrm-bedsitter-in-nakulabye-rubaga-for-rent-cETQsmTgoqkSP5TiflDnZV7a.html",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Eastlands Agency Kampala (Agent Harriet)",
+    "suburb": "Ntinda, Bukoto & Naguru",
+    "listingTrigger": "Newly listed 2 & 3-Bed Luxury Condos in Bukoto & Commercial Villas in Ntinda",
+    "phone": "\"+256772412613\"",
+    "altPhone": "\"+256772412613\"",
+    "email": "admin@eastlandsagency.com",
+    "portal": "https://eastlandsagency.com",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Ecoland Property Services (Agent Arthur)",
+    "suburb": "Kisaasi, Kulambiro & Kyanja",
+    "listingTrigger": "Contemporary 4-Bed Detached Homes in Kyanja & Modern Condominiums in Kisaasi",
+    "phone": "\"+256776822266\"",
+    "altPhone": "\"+256776822266\"",
+    "email": "info@ecolandproperty.com",
+    "portal": "https://ecolandproperty.com",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Seal Realtors Uganda (Agent Patrick)",
+    "suburb": "Bugolobi, Mbuya & Luzira",
+    "listingTrigger": "Prime 3-Bed Furnished Apartments in Bugolobi & Residential Mansions in Mbuya",
+    "phone": "\"+256704812345\"",
+    "altPhone": "\"+256704812345\"",
+    "email": "info@sealrealtors.com",
+    "portal": "https://sealrealtors.com",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Landlord / Agent (Naguru Furnished House Is For Re)",
+    "suburb": "Kampala, Greater Kampala",
+    "listingTrigger": "Naguru Furnished House Is For Rent (USh 3,000,000 per month)",
+    "phone": "\"+256792674251\"",
+    "altPhone": "\"+256792674251\"",
+    "email": "",
+    "portal": "https://jiji.ug/kampala/houses-apartments-for-rent/naguru-furnished-house-is-for-rent-kz4OkQROawxWfLETvkmff5gG.html",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Wilken Property Services (Agent Kenneth)",
+    "suburb": "Namugongo, Seeta & Mukono",
+    "listingTrigger": "Newly constructed 4-Bed Family Homes with Balconies in Namugongo & Sonde",
+    "phone": "\"+256772740700\"",
+    "altPhone": "\"+256772740700\"",
+    "email": "info@wilkenproperties.com",
+    "portal": "https://wilkenproperties.com",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Kampala Property Masters (Agent Derrick)",
+    "suburb": "Gayaza, Kungu & Bulindo",
+    "listingTrigger": "Modern 3-Bed Wall-fenced Residential Bungalows in Bulindo & Kungu",
+    "phone": "\"+256701889922\"",
+    "altPhone": "\"+256701889922\"",
+    "email": "kampalapropertymasters@gmail.com",
+    "portal": "https://kampalapropertymasters.ug",
+    "status": "Ready to Message on WhatsApp"
+  },
+  {
+    "agentName": "Victoria Lakefront Properties (Agent Sarah N.)",
+    "suburb": "Kigo, Garuga & Entebbe Lakefront",
+    "listingTrigger": "Executive 4-Bed Holiday Condos in Kigo Serena Area & Waterfront Residencies",
+    "phone": "\"+256754332211\"",
+    "altPhone": "\"+256754332211\"",
+    "email": "victoriapropertiesug@gmail.com",
+    "portal": "https://victoriaproperties.ug",
     "status": "Ready to Message on WhatsApp"
   }
 ]

@@ -399,37 +399,7 @@ function escapeCsvField(field) {
 function syncSniperToGoogleSheet() {
   const sniperLeads = loadSniperLeads();
 
-  // 1. Also add any sniper leads that have an email address into main leads.json (if not already present)
-  const mainLeads = JSON.parse(fs.readFileSync(leadsPath, 'utf8'));
-  const existingMainEmails = new Set(mainLeads.map(l => (l.email || '').toLowerCase()).filter(Boolean));
-  let addedToMain = 0;
-
-  for (const sl of sniperLeads) {
-    const em = (sl.email || '').trim().toLowerCase();
-    if (em && !existingMainEmails.has(em) && !hasAlreadyBeenContacted(em)) {
-      existingMainEmails.add(em);
-      mainLeads.push({
-        name: sl.agentName,
-        category: 'Real Estate Developers & Property Managers',
-        city: sl.suburb,
-        email: sl.email,
-        phone: formatPhoneForSheet(sl.phone),
-        website: sl.portal,
-        status: 'Ready for Automated Dispatch',
-        pitch_angle: `New-Build Curtain Packages & 10% Agent Referral (${sl.listingTrigger.slice(0, 50)})`,
-        notes: `Sniped from Real Estate Portal: ${sl.listingTrigger}`
-      });
-      addedToMain++;
-    }
-  }
-
-  if (addedToMain > 0) {
-    fs.writeFileSync(leadsPath, JSON.stringify(mainLeads, null, 2), 'utf8');
-    console.log(`[+] Merged ${addedToMain} email-enabled property agents into main email campaign list.`);
-    syncToSheets();
-  }
-
-  // 2. Build CSV for the dedicated "Real Estate Sniper" tab
+  // Build CSV for the dedicated "Real Estate Sniper" tab (WhatsApp-only; never auto-merge unverified emails into leads.json)
   const headers = [
     'Agent / Landlord / Company',
     'Suburb / Area',

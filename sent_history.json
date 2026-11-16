@@ -494,5 +494,109 @@
     "lastContactedAt": "2026-11-16T15:07:04.733Z",
     "followUpCount": 0,
     "bounced": false
+  },
+  "spekeresort@spekeresort.com": {
+    "email": "spekeresort@spekeresort.com",
+    "status": "Sent (2026-11-16 15:19)",
+    "sentAt": "2026-11-16T15:19:54.014Z",
+    "lastContactedAt": "2026-11-16T15:19:54.014Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "res@ug.knightfrank.com": {
+    "email": "res@ug.knightfrank.com",
+    "status": "Blocked / Bounced (Stopped)",
+    "sentAt": "2026-11-16T15:20:21.236Z",
+    "lastContactedAt": "2026-11-16T15:20:21.236Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@goldentulipcanaankampala.com": {
+    "email": "info@goldentulipcanaankampala.com",
+    "status": "Sent (2026-11-16 15:24)",
+    "sentAt": "2026-11-16T15:24:26.902Z",
+    "lastContactedAt": "2026-11-16T15:24:26.902Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info.kampala@onomohotel.com": {
+    "email": "info.kampala@onomohotel.com",
+    "status": "Removed (Bounced)",
+    "sentAt": "2026-11-16T15:36:12.985Z",
+    "lastContactedAt": "2026-11-16T15:36:12.985Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "lakevictoria@serenahotels.com": {
+    "email": "lakevictoria@serenahotels.com",
+    "status": "Sent (2026-11-16 15:36)",
+    "sentAt": "2026-11-16T15:36:18.478Z",
+    "lastContactedAt": "2026-11-16T15:36:18.478Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@spekeapartments.com": {
+    "email": "info@spekeapartments.com",
+    "status": "Removed (Bounced)",
+    "sentAt": "2026-11-16T15:43:25.540Z",
+    "lastContactedAt": "2026-11-16T15:43:25.540Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@studiogad.com": {
+    "email": "info@studiogad.com",
+    "status": "Sent (2026-11-16 15:43)",
+    "sentAt": "2026-11-16T15:43:31.033Z",
+    "lastContactedAt": "2026-11-16T15:43:31.033Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "kampala@fbwgroup.com": {
+    "email": "kampala@fbwgroup.com",
+    "status": "Sent (2026-11-16 15:48)",
+    "sentAt": "2026-11-16T15:48:18.767Z",
+    "lastContactedAt": "2026-11-16T15:48:18.767Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "sbcul@seyani.com": {
+    "email": "sbcul@seyani.com",
+    "status": "Removed (Bounced)",
+    "sentAt": "2026-11-16T15:48:46.501Z",
+    "lastContactedAt": "2026-11-16T15:48:46.501Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "excel@excelconstruction.org": {
+    "email": "excel@excelconstruction.org",
+    "status": "Sent (2026-11-16 15:53)",
+    "sentAt": "2026-11-16T15:53:46.761Z",
+    "lastContactedAt": "2026-11-16T15:53:46.761Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "info@roko.com": {
+    "email": "info@roko.com",
+    "status": "Removed (Bounced)",
+    "sentAt": "2026-11-16T15:54:13.341Z",
+    "lastContactedAt": "2026-11-16T15:54:13.341Z",
+    "followUpCount": 0,
+    "bounced": true
+  },
+  "info@sarjanconstruction.com": {
+    "email": "info@sarjanconstruction.com",
+    "status": "Sent (2026-11-16 15:58)",
+    "sentAt": "2026-11-16T15:58:19.397Z",
+    "lastContactedAt": "2026-11-16T15:58:19.397Z",
+    "followUpCount": 0,
+    "bounced": false
+  },
+  "sales@nhcc.co.ug": {
+    "email": "sales@nhcc.co.ug",
+    "status": "Sent (2026-11-16 15:58)",
+    "sentAt": "2026-11-16T15:58:47.069Z",
+    "lastContactedAt": "2026-11-16T15:58:47.069Z",
+    "followUpCount": 0,
+    "bounced": false
   }
 }
