@@ -15,7 +15,7 @@ const {
 
 const leadsPath = path.join(__dirname, 'leads.json');
 const DEFAULT_SENDER_EMAIL = 'sseguyafahim1@gmail.com';
-const BUSINESS_NAME = 'Fitbit Interiors';
+const BUSINESS_NAME = 'Fitbit Interiors Kampala';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -59,7 +59,6 @@ async function sendTestEmail(targetEmail = DEFAULT_SENDER_EMAIL, appPassword = n
   const leads = JSON.parse(fs.readFileSync(leadsPath, 'utf8'));
   const sampleLead = leads[0];
   const { subject, body, html } = generateEmail(sampleLead);
-  const attachments = await ensureCatalogAttachment();
 
   const { user, transporter } = createTransporter(null, appPassword);
   const info = await transporter.sendMail({
@@ -67,16 +66,18 @@ async function sendTestEmail(targetEmail = DEFAULT_SENDER_EMAIL, appPassword = n
     to: targetEmail,
     subject: `[SAMPLE PREVIEW] ${subject}`,
     text: body,
-    html: html,
-    attachments
+    html
   });
 
   return info;
 }
 
 /**
- * Automatically dispatches initial outreach emails (with PDF Catalogue attached)
- * ONLY to verified MX leads that have NEVER been contacted before and are NOT blocked/bounced.
+ * High-Deliverability Outreach Mailer:
+ * - Sends a clean 3-sentence personal note linking to the public Fitbit Interiors
+ *   website (no cold binary PDF attachment on corporate domains, avoiding
+ *   550 Administrative Prohibition / Microsoft 365 & Mimecast blocks).
+ * - Automatically deletes any invalid/bounced address from leads.json.
  */
 async function runAutomatedCampaign({ dryRun = false, appPassword = null, delayMs = 3500, maxBatch = 25 } = {}) {
   await reconcileSentLeadsWithGmail();
@@ -84,8 +85,8 @@ async function runAutomatedCampaign({ dryRun = false, appPassword = null, delayM
     await checkInboxReplies(appPassword);
   }
 
-  const attachments = await ensureCatalogAttachment();
-  const leads = JSON.parse(fs.readFileSync(leadsPath, 'utf8'));
+  const pdfAttachments = await ensureCatalogAttachment();
+  let leads = JSON.parse(fs.readFileSync(leadsPath, 'utf8'));
 
   const pendingLeads = leads.filter(l => {
     const emailKey = (l.email || '').trim().toLowerCase();
@@ -133,20 +134,20 @@ async function runAutomatedCampaign({ dryRun = false, appPassword = null, delayM
       continue;
     }
 
-    // Verify DNS MX record before sending so Gmail never gets a Delivery Incomplete bounce
     const validMx = await hasValidMxRecord(emailKey);
     if (!validMx) {
-      lead.status = 'Blocked / Invalid Domain (Stopped)';
-      lead.bounced = true;
-      recordEmailBounced(lead.email, lead.status);
+      recordEmailBounced(lead.email, 'Removed (Invalid Domain)');
+      leads = leads.filter(l => (l.email || '').trim().toLowerCase() !== emailKey);
       fs.writeFileSync(leadsPath, JSON.stringify(leads, null, 2), 'utf8');
-      console.log(`[!] Skipped ${lead.email} — domain has no valid MX mail server.`);
+      console.log(`[-] Removed ${lead.email} — domain has no valid MX server.`);
       continue;
     }
 
     const { subject, body, html } = generateEmail(lead);
     const nowIso = new Date().toISOString();
     const timestamp = nowIso.slice(0, 16).replace('T', ' ');
+    // Only attach PDF on @gmail.com recipients; corporate domains receive the clean website link to prevent 550 spam blocks
+    const useAttachment = emailKey.endsWith('@gmail.com') ? pdfAttachments : undefined;
 
     if (dryRun) {
       sentCount++;
@@ -161,7 +162,7 @@ async function runAutomatedCampaign({ dryRun = false, appPassword = null, delayM
           subject,
           text: body,
           html,
-          attachments
+          attachments: useAttachment
         });
         lead.status = `Sent (${timestamp})`;
         lead.sentAt = nowIso;
@@ -179,10 +180,9 @@ async function runAutomatedCampaign({ dryRun = false, appPassword = null, delayM
           await sleep(delayMs);
         }
       } catch (err) {
-        console.error(`[!] Failed sending to ${lead.email}: ${err.message}`);
-        lead.status = `Blocked / Bounced (Stopped)`;
-        lead.bounced = true;
-        recordEmailBounced(lead.email, lead.status);
+        console.error(`[-] Failed sending to ${lead.email} (${err.message}) — removing dead address.`);
+        recordEmailBounced(lead.email, 'Removed (Send Failed)');
+        leads = leads.filter(l => (l.email || '').trim().toLowerCase() !== emailKey);
         fs.writeFileSync(leadsPath, JSON.stringify(leads, null, 2), 'utf8');
       }
     }
@@ -196,16 +196,15 @@ async function runAutomatedCampaign({ dryRun = false, appPassword = null, delayM
 }
 
 /**
- * Checks Gmail inbox for replies AND mailer-daemon bounces first, then sends Step 1 (Day 4)
- * and Step 2 (Day 10) follow-up emails ONLY to valid, non-bounced, non-replied prospects.
+ * Sends at most ONE polite plain-first follow-up (Day 4) to non-replied leads,
+ * with zero binary attachments so corporate firewalls never block it.
  */
 async function runFollowUpSequence({ dryRun = false, forceDue = false, appPassword = null, delayMs = 3500 } = {}) {
   if (!dryRun) {
     await checkInboxReplies(appPassword);
   }
 
-  const attachments = await ensureCatalogAttachment();
-  const leads = JSON.parse(fs.readFileSync(leadsPath, 'utf8'));
+  let leads = JSON.parse(fs.readFileSync(leadsPath, 'utf8'));
   const nowMs = Date.now();
   const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -228,17 +227,17 @@ async function runFollowUpSequence({ dryRun = false, forceDue = false, appPasswo
     ) {
       continue;
     }
-    if (!st.startsWith('Sent') && !st.startsWith('Follow-Up')) continue;
+    if (!st.startsWith('Sent')) continue;
 
+    // Strictly cap at 1 follow-up maximum so we never spam or trigger blocks
     const stepCount = Number(lead.followUpCount || 0);
-    if (stepCount >= 2) continue;
+    if (stepCount >= 1) continue;
 
     const lastDateMs = lead.lastContactedAt ? new Date(lead.lastContactedAt).getTime() : 0;
     const daysElapsed = lastDateMs ? (nowMs - lastDateMs) / DAY_MS : 999;
 
-    const requiredDays = stepCount === 0 ? 4 : 6;
-    if (forceDue || daysElapsed >= requiredDays) {
-      dueLeads.push({ lead, nextStep: stepCount + 1 });
+    if (forceDue || daysElapsed >= 4) {
+      dueLeads.push({ lead, nextStep: 1 });
     }
   }
 
@@ -259,11 +258,11 @@ async function runFollowUpSequence({ dryRun = false, forceDue = false, appPasswo
   let sentCount = 0;
 
   for (const { lead, nextStep } of dueLeads) {
-    const validMx = await hasValidMxRecord(lead.email);
+    const emailKey = (lead.email || '').trim().toLowerCase();
+    const validMx = await hasValidMxRecord(emailKey);
     if (!validMx) {
-      lead.status = 'Blocked / Invalid Domain (Stopped)';
-      lead.bounced = true;
-      recordEmailBounced(lead.email, lead.status);
+      recordEmailBounced(lead.email, 'Removed (Invalid Domain)');
+      leads = leads.filter(l => (l.email || '').trim().toLowerCase() !== emailKey);
       fs.writeFileSync(leadsPath, JSON.stringify(leads, null, 2), 'utf8');
       continue;
     }
@@ -276,15 +275,14 @@ async function runFollowUpSequence({ dryRun = false, forceDue = false, appPasswo
       sentCount++;
     } else {
       try {
-        console.log(`[*] Sending Follow-Up #${nextStep} to ${lead.name} <${lead.email}>...`);
+        console.log(`[*] Sending Follow-Up #1 to ${lead.name} <${lead.email}>...`);
         await transporter.sendMail({
           from: `"${BUSINESS_NAME}" <${senderUser}>`,
           to: lead.email,
           replyTo: senderUser,
           subject,
           text: body,
-          html,
-          attachments
+          html
         });
         lead.followUpCount = nextStep;
         lead.lastContactedAt = nowIso;
@@ -294,10 +292,9 @@ async function runFollowUpSequence({ dryRun = false, forceDue = false, appPasswo
         fs.writeFileSync(leadsPath, JSON.stringify(leads, null, 2), 'utf8');
         await sleep(delayMs);
       } catch (err) {
-        console.error(`[!] Failed follow-up to ${lead.email}: ${err.message}`);
-        lead.status = 'Blocked / Bounced (Stopped)';
-        lead.bounced = true;
-        recordEmailBounced(lead.email, lead.status);
+        console.error(`[-] Failed follow-up to ${lead.email} — removing dead address.`);
+        recordEmailBounced(lead.email, 'Removed (Send Failed)');
+        leads = leads.filter(l => (l.email || '').trim().toLowerCase() !== emailKey);
         fs.writeFileSync(leadsPath, JSON.stringify(leads, null, 2), 'utf8');
       }
     }

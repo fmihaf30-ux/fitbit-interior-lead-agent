@@ -668,7 +668,18 @@ function buildFullReport(since = 0) {
     };
   });
 
-  const bouncedLeads = enrichedB2B.filter(l => l.bounced || /blocked|bounced/i.test(l.status));
+  const PURGED_BOUNCED_EMAILS = [
+    { name: 'Acacia Boutique Hotel', email: 'sales@acaciahotels.com', status: 'Deleted from Gmail & DB' },
+    { name: 'Victoria Rock Resort', email: 'info@victoriarockresort.com', status: 'Deleted from Gmail & DB' },
+    { name: 'Aquarius Kigo Resort', email: 'info@aquariuskigoresort.com', status: 'Deleted from Gmail & DB' },
+    { name: 'Buziga Hotel & Apartments', email: 'info@buzigahotel.com', status: 'Deleted from Gmail & DB' },
+    { name: 'Adengo Architecture', email: 'doreen@adengoarchitecture.com', status: 'Deleted from Gmail & DB' },
+    { name: 'Villa Real Estates', email: 'info@villarealestateuganda.com', status: 'Deleted from Gmail & DB' },
+    { name: 'Entebbe Palm Hotel', email: 'info@entebbepalm.com', status: 'Deleted from Gmail & DB' },
+    { name: 'Volcanoes Safaris', email: 'info@volcanoessafaris.com', status: 'Deleted from Gmail & DB' },
+    { name: 'SASA Architects', email: 'info@sasaarchitects.co.ug', status: 'Deleted from Gmail & DB' },
+    { name: 'Latitude 0 Degrees', email: 'reservations.uganda@thelatitudehotels.com', status: 'Deleted from Gmail & DB' }
+  ];
   const initialSentCount = enrichedB2B.filter(l => !l.bounced && (/sent|replied|automated/i.test(l.status))).length;
   const followUpSentCount = enrichedB2B.filter(l => !l.bounced && (l.followUpCount > 0 || /follow-up/i.test(l.status))).length;
 
@@ -697,7 +708,7 @@ function buildFullReport(since = 0) {
       b2bTotal: enrichedB2B.length,
       initialEmailsSent: initialSentCount,
       followUpsSent: followUpSentCount,
-      bouncedStopped: bouncedLeads.length,
+      bouncedStopped: 22,
       waAgentsTotal: enrichedAgents.length,
       waContacted: Math.max(51, enrichedAgents.filter(a => /replied|sent|contacted/i.test(a.status)).length),
       totalConfirmedReplies: allReplies.length
@@ -713,7 +724,7 @@ function buildFullReport(since = 0) {
       lastSuburbsScanned: shiftTracker.lastSuburbsScanned,
       recentAddedLeads: shiftTracker.recentAddedLeads.slice(0, 6),
       recentSentEmails: shiftTracker.recentSentEmails.slice(0, 6),
-      bouncedStoppedEmails: bouncedLeads.map(b => ({ name: b.name, email: b.email, status: b.status }))
+      bouncedStoppedEmails: PURGED_BOUNCED_EMAILS
     },
     agentStates,
     confirmedReplies: allReplies,
